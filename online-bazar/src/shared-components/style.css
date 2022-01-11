@@ -1,0 +1,50 @@
+.auth-container {
+  height: 100vh;
+  background-image: url('https://aqbazar.com/wp-content/uploads/2021/07/ab2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.8;
+}
+.form-Container {
+  padding: 20px 0;
+  border-radius: 5px;
+  position: relative;
+  top: 10%;
+
+  width: 30%;
+  margin-left: 20px;
+  opacity: 0.8;
+  background-color: rgb(255, 254, 254);
+}
+
+.form-Container h2 {
+  color: rgb(71, 145, 255);
+  margin-bottom: 20px;
+}
+.field-container {
+  margin: 14px;
+}
+.field {
+  width: 90%;
+}
+.auth-button {
+  margin: 10px;
+  width: 87%;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(71, 145, 255);
+  border: none;
+  color: white;
+}
+.auth-link {
+  padding: 10px;
+  text-align: right;
+  margin-right: 20px;
+}
+.auth-link a {
+  text-decoration: none;
+  color: rgb(71, 145, 255);
+  font-size: 20px;
+  font-weight: 600;
+}
