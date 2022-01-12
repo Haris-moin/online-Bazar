@@ -1,43 +1,43 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
-.menu-list {
-  text-align: left;
-  height: 100%;
-  background-color: rgb(48, 48, 48);
-}
-
-.items {
-  color: rgb(134, 134, 134);
-}
-
-li {
+.logo {
   height: 70px;
+  width: 100px;
 }
-
+.logo-container {
+  display: flex;
+  border-bottom: 1px solid blueviolet;
+}
+.title {
+  font-family: cursive;
+  padding-top: 34px;
+  font-size: 22px;
+  color: #fff;
+}
 .sidenav {
   position: fixed;
-  width: 280px;
+  width: 250px;
   height: 100%;
   background-color: #1e2027;
 }
 .sidenav .main-buttons {
   list-style-type: none;
-  margin: 64px 0;
-  padding: 0;
+  text-align: left;
+  padding: 20px 0;
+  margin: 0;
   color: #fff;
 }
 .sidenav .main-buttons li {
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
 }
 .sidenav .main-buttons > li {
-  padding: 16px 52px;
+  padding: 20px 42px;
 }
 .sidenav .main-buttons > li .fa {
   position: absolute;
-  left: 12px;
+  left: 10px;
   color: #414655;
 }
 .sidenav .main-buttons > li:hover,
@@ -51,27 +51,30 @@ li {
 .sidenav .main-buttons > li:focus .hidden {
   width: 228px;
 }
+
 .hidden {
   width: 0;
-  height: 100%;
-  padding: 64px 0;
+  padding: 0;
   position: absolute;
-  top: 0;
-  right: 0;
+  left: 250px;
   overflow: hidden;
   list-style-type: none;
-  background-color: #292c35;
-  transition: all 0.3s ease;
+  background-color: #323336;
+  opacity: 0.5;
+  transition: all 0.5s ease;
+  border-radius: 0 5px 5px 0;
 }
+
 .hidden li {
-  padding: 16px 24px;
+  padding: 20px 24px;
+  border-bottom: 1px solid #5a678f;
 }
 .hidden li:hover,
 .hidden li:active,
 .hidden li:focus {
-  background-color: #323541;
+  background-color: #202f6b;
 }
-body {
-  background-color: #caccd6;
-  line-height: 30px;
+a {
+  text-decoration: none;
+  color: #fff;
 }

@@ -7,7 +7,7 @@ import Dashboard from '../dasboard';
 function Layout() {
   return (
     <div>
-      <Grid container spacing={2}>
+      <Grid container>
         <Grid item xs={12}>
           <Header />
         </Grid>
