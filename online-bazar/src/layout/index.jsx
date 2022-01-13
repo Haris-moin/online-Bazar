@@ -11,10 +11,10 @@ function Layout() {
         <Grid item xs={12}>
           <Header />
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={2.5}>
           <Sidebar />
         </Grid>
-        <Grid item xs={10}>
+        <Grid item xs={9.5}>
           <Dashboard />
         </Grid>
       </Grid>

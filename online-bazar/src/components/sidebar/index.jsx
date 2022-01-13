@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import { GiClothes, GiBarefoot, GiDiscGolfBag } from 'react-icons/gi';
+import { RiDashboardFill } from 'react-icons/ri';
 import './style.css';
 function Sidebar() {
   return (
@@ -16,10 +17,13 @@ function Sidebar() {
         <div className="title">Online Bazar</div>
       </div>
       <ul class="main-buttons">
-        <li>DashBoard</li>
+        <li>
+          <RiDashboardFill className="sidebar-icon" />
+          <div>DashBoard</div>
+        </li>
         <li>
           <i class="fa fa-circle fa-2x"></i>
-          Clothes
+          <GiClothes className="sidebar-icon" /> <div>Clothes</div>
           <ul class="hidden">
             <Link to="shirts">
               <li>Shirts</li>
@@ -37,7 +41,8 @@ function Sidebar() {
         </li>
         <li>
           <i class="fa fa-circle fa-2x"></i>
-          Foot Wear
+          <GiBarefoot className="sidebar-icon" />
+          <div>Foot Wear</div>
           <ul class="hidden">
             <li>Sandel</li>
             <li>Shoes</li>
@@ -46,7 +51,7 @@ function Sidebar() {
         </li>
         <li>
           <i class="fa fa-circle fa-2x"></i>
-          Bags
+          <GiDiscGolfBag className="sidebar-icon" /> <div>Bags</div>
           <ul class="hidden">
             <li>College</li>
             <li>Girls Hand Bags</li>
@@ -56,7 +61,7 @@ function Sidebar() {
         </li>
         <li>
           <i class="fa fa-circle fa-2x"></i>
-          Clothes
+          <GiClothes className="sidebar-icon" /> <div>Clothes</div>
           <ul class="hidden">
             <Link to="shirts">
               <li>Shirts</li>
@@ -74,7 +79,8 @@ function Sidebar() {
         </li>
         <li>
           <i class="fa fa-circle fa-2x"></i>
-          Foot Wear
+          <GiBarefoot className="sidebar-icon" />
+          <div>Foot Wear</div>
           <ul class="hidden">
             <li>Sandel</li>
             <li>Shoes</li>
@@ -83,7 +89,7 @@ function Sidebar() {
         </li>
         <li>
           <i class="fa fa-circle fa-2x"></i>
-          Bags
+          <GiDiscGolfBag className="sidebar-icon" /> <div>Bags</div>
           <ul class="hidden">
             <li>College</li>
             <li>Girls Hand Bags</li>

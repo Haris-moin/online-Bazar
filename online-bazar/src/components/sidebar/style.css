@@ -15,13 +15,12 @@
 }
 .sidenav {
   position: fixed;
-  width: 250px;
+  width: 270px;
   height: 100%;
   background-color: #1e2027;
 }
 .sidenav .main-buttons {
   list-style-type: none;
-  text-align: left;
   padding: 20px 0;
   margin: 0;
   color: #fff;
@@ -31,9 +30,14 @@
   letter-spacing: 2px;
   font-size: 14px;
   font-weight: 600;
+  display: flex;
+  justify-content: inherit;
+}
+li div {
+  margin-left: 20px;
 }
 .sidenav .main-buttons > li {
-  padding: 20px 42px;
+  padding: 20px 28px;
 }
 .sidenav .main-buttons > li .fa {
   position: absolute;
@@ -77,4 +81,8 @@
 a {
   text-decoration: none;
   color: #fff;
+}
+.sidebar-icon {
+  font-size: 25px;
+  margin-right: 20px;
 }

@@ -1,0 +1,10 @@
+.carousel-img-conatiner {
+  margin: auto;
+  width: 100%;
+  height: 250px;
+}
+.carousel {
+  margin-top: 20px;
+  width: 90%;
+  height: 280px;
+}
